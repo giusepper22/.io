@@ -15,22 +15,11 @@ body {
 }
 
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("https://joesmit22.github.io/.io/img/4.png"); 
-    
-    /* Anima lo sfondo in modo continuo */
-    -webkit-animation: bg-scrolling-reverse 15s linear infinite;
-    -moz-animation: bg-scrolling-reverse 15s linear infinite;
-    -o-animation: bg-scrolling-reverse 15s linear infinite;
-    animation: bg-scrolling-reverse 15s linear infinite;
-  
-    /* Anima in avanti */
-    -webkit-animation: bg-scrolling 15s linear infinite;
-    -moz-animation: bg-scrolling 15s linear infinite;
-    -o-animation: bg-scrolling 15s linear infinite;
-    animation: bg-scrolling 15s linear infinite;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: -1;
   }
 
 .center {
